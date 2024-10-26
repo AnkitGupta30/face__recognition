@@ -1,6 +1,5 @@
 import cv2
 import os
-# from flask import Flask, request, render_template
 from flask import Flask, jsonify,request
 from datetime import date
 from datetime import datetime
@@ -13,6 +12,7 @@ from flask_cors import CORS
 # app instance 
 app = Flask(__name__)
 CORS(app)
+
 
 nimgs = 10
 
